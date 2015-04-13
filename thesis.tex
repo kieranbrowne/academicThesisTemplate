@@ -78,32 +78,10 @@
                            style=nextline}
 
 % Uses biblatex for reference styling - see the biblatex documentation
-% (which is pretty good). Also, use biber, which *should* just be a
-% drop-in replacement for bibtex.
 \usepackage[%
-backend=biber,
-natbib=true,
-backref=true,
-citecounter=true,
-dashed=false,
-backrefstyle=three,
-citestyle=authoryear-icomp,
-firstinits=true,
-maxcitenames=2,
-maxbibnames=10,
-uniquename=mininit,
-bibstyle=authoryear,
-% refsegment=chapter,
-% ibidtracker=strict,
-url=false,
-doi=false]{biblatex}
-
-% don't print the month in the reference section
-\AtEveryBibitem{\clearfield{month}}
-\AtEveryCitekey{\clearfield{month}}
-
-% change this to the name of your .bib file
-\addbibresource{thesis.bib}
+    backend=bibtex,
+style=verbose]{biblatex}
+\bibliography{thesis}
 
 % csquotes - for inline and block quoting
 \usepackage[english=british,threshold=15,thresholdtype=words]{csquotes}
@@ -221,10 +199,14 @@ toc=true]{glossaries}
 
 \vspace*{0.4\textheight}
 
-\begin{center}
-  Except where otherwise indicated, this thesis is my own original
-  work.
-\end{center}
+\begin{onehalfspace}
+I hereby declare that the material presented here is the outcome
+of the research project I have undertaken during my candidacy, that
+I am the sole author unless otherwise indicated and that I have
+fully documented the source of ideas, quotations or paraphrases
+attributable to other authors.
+\end{onehalfspace}
+
 \vspace*{4cm}
 
 \begin{flushright}
@@ -284,11 +266,13 @@ is how I'd do it\ldots
 \label{chap:intro}
 
 There are lots of good places to get help with writing LaTeX, so I
-won't go into that here.  It is worth noting that the packages used in
+won't go into that here.\footcite[p.~433]{example1970}  
+It is worth noting that the packages used in
 this thesis template (which you can see if you read the `header' of
 the \texttt{thesis.tex} file have pretty good documentation, so it
-might be worth looking at that for clues on how to use the \texttt{glossaries},
-and the \texttt{csquotes} package.
+might be worth looking at that for clues on how to use the 
+\texttt{glossaries}, and the \texttt{csquotes} package.
+\footcite[p.~434]{example1970}
 
 For figures, you can either use single figures (as in
 \cref{fig:anchor}) or multi-part figures (as in \cref{fig:dog-figure})
