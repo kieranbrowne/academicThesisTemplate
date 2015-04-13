@@ -5,7 +5,7 @@ for arts and humanities theses and exegeses.
 
 # Example
 
-[This is what the output pdf looks like.](https://raw.github.com/kieranbrowne/academic-thesis-template-chicago/master/thesis.pdf)
+[This is what the output pdf looks like.](https://github.com/kieranbrowne/academic-thesis-template-chichago/raw/master/thesis.pdf)
 
 # Bibliography
 
