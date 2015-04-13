@@ -5,10 +5,11 @@ for arts and humanities theses and exegeses.
 
 ### Bibliography
 
-Support for footnote citation through `\footcite{}` 
 ![footnotes](https://cloud.githubusercontent.com/assets/5771172/7110373/24b90836-e1f3-11e4-966e-f6fd01bcff5f.png)
-Chicago Manual of Style references.
 ![bibliography](https://cloud.githubusercontent.com/assets/5771172/7110370/210ca864-e1f3-11e4-96c6-ad6dd771392b.png)
+
+- Support for footnote citation through `\footcite{}` 
+- Chicago Manual of Style references.
 Use the google scholar cite function to export citations in the BibLaTeX 
 format and append these to the bibliography file `thesis.bib`
 
