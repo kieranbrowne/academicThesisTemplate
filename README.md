@@ -6,6 +6,7 @@ A fork of Ben Swift's [academic thesis template](https://github.com/benswift/aca
 #### Footnotes
 
 ![footnotes](https://cloud.githubusercontent.com/assets/5771172/7110443/ba5e8d88-e1f4-11e4-88a4-185acfc4c5e9.png)
+
 Footnote citation with the `\footcite{}` tag.
 
 #### Bibliography
