@@ -3,10 +3,10 @@
 This is a fork of Ben Swift's [academic LaTeX thesis template](https://github.com/benswift/academic-thesis-template)
 for arts and humanities theses and exegeses.
 
-### Bibliography
+### References
 
-![footnotes](https://cloud.githubusercontent.com/assets/5771172/7110373/24b90836-e1f3-11e4-966e-f6fd01bcff5f.png)
-![bibliography](https://cloud.githubusercontent.com/assets/5771172/7110370/210ca864-e1f3-11e4-96c6-ad6dd771392b.png)
+![footnotes](https://cloud.githubusercontent.com/assets/5771172/7110443/ba5e8d88-e1f4-11e4-88a4-185acfc4c5e9.png)
+![bibliography](https://cloud.githubusercontent.com/assets/5771172/7110449/d1fb1182-e1f4-11e4-8775-6429f6a3329d.png)
 
 - Support for footnote citation through `\footcite{}` 
 - Chicago Manual of Style references.
