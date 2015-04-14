@@ -1,6 +1,6 @@
 ## Academic Thesis Template
 
-LaTeX tempalte for arts and humanities theses.
+LaTeX template for arts and humanities theses.
 A fork of Ben Swift's [academic thesis template](https://github.com/benswift/academic-thesis-template)
 
 #### Footnotes
