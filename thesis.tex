@@ -78,9 +78,10 @@
                            style=nextline}
 
 % Uses biblatex for reference styling - see the biblatex documentation
-\usepackage[%
-    backend=bibtex,
-style=verbose]{biblatex}
+\usepackage[style=authordate,%
+backend=bibtex8,%
+babel=other,%
+bibencoding=inputenc]{biblatex-chicago}
 \bibliography{thesis}
 
 % csquotes - for inline and block quoting
@@ -99,7 +100,7 @@ hyperindex=true,
 bookmarks=true,
 pdftitle={Thesis Title},
 pdfauthor={Thesis author},
-colorlinks=true, % change to false for final printing
+colorlinks=false, % change to false for final printing
 pdfborder=0,
 allcolors=DarkBlue,
 % plainpages=false,
